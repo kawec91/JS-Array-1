@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <script>
+      let q = [
+        [
+          "Lukasz",
+          "Lukawczyk",
+          "FullStack Web Developer",
+          [
+            "HTML",
+            "CSS",
+            "Bootstrap",
+            "Tailwind",
+            "JS",
+            "React",
+            "Node.js",
+            "Sqlite3",
+          ],
+        ],
+        [
+          "Lukasz",
+          "Lukawczyk",
+          "FullStack Web Developer",
+          [
+            "HTML",
+            "CSS",
+            "Bootstrap",
+            "Tailwind",
+            "JS",
+            "React",
+            "Node.js",
+            "Sqlite3",
+          ],
+        ],
+        [
+          "Lukasz",
+          "Lukawczyk",
+          "FullStack Web Developer",
+          [
+            "HTML",
+            "CSS",
+            "Bootstrap",
+            "Tailwind",
+            "JS",
+            "React",
+            "Node.js",
+            "Sqlite3",
+          ],
+        ],
+        [
+          "Lukasz",
+          "Lukawczyk",
+          "FullStack Web Developer",
+          [
+            "HTML",
+            "CSS",
+            "Bootstrap",
+            "Tailwind",
+            "JS",
+            "React",
+            "Node.js",
+            "Sqlite3",
+          ],
+        ],
+        [
+          "Lukasz",
+          "Lukawczyk",
+          "FullStack Web Developer",
+          [
+            "HTML",
+            "CSS",
+            "Bootstrap",
+            "Tailwind",
+            "JS",
+            "React",
+            "Node.js",
+            "Sqlite3",
+          ],
+        ],
+      ];
+      let newList = [];
+
+      for (let i = 0; i < q.length; i++) {
+        console.log("Qi", q[i]);
+        let res = {
+          vorname: q[i][0],
+          nachname: q[i][1],
+          beruf: q[i][2],
+          skills: q[i][3],
+        };
+
+        newList.push(res);
+      }
+      console.log("New List: ", newList);
+    </script>
+  </body>
+</html>
